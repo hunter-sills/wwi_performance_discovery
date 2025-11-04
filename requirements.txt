@@ -1,1 +1,7 @@
-# 
+ipykernel==6.29.5
+jupyterlab==3.6.8
+matplotlib==3.10.7
+pandas==2.3.3
+psycopg-binary==3.2.12
+python-dotenv==1.2.1
+SQLAlchemy==2.0.44

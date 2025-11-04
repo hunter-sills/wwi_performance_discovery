@@ -1,18 +1,67 @@
-*.bak
-*.csv
-*.db
-*.env
-*.log
-*.swp
-*.tmp
+# ----------------------------------------------------
+# 1. ENVIRONMENT & SECURITY
+# ----------------------------------------------------
+# Python Virtual Environment folder
+venv/
+# direnv and pyenv files
+.envrc.local
+.python-version
+# Database login credentials
+.env
+
+# ----------------------------------------------------
+# 2. MAC OS ARTIFACTS
+# ----------------------------------------------------
+# Mac OS-specific files
+.DS_Store
+.localized
+ehthumbs.db
+
+# ----------------------------------------------------
+# 3. PYTHON/JUPYTER ARTIFACTS
+# ----------------------------------------------------
+# Compiled Python files
+__pycache__/
+*.py[cod]
+# IPython/Jupyter Checkpoints and state files
+.ipynb_checkpoints/
+# Jupyter notebook specific metadata
+.jupyter/
+
+# ----------------------------------------------------
+# 4. DATA, OUTPUTS, & SCRATCH FILES
+# ----------------------------------------------------
+# Raw/processed data files (often large)
+data/
+# Output files that can be regenerated from scratch
+output/
 tmp/
+*.csv
+*.log
+*.zip
+*.tmp
+*.bak
+*.swp
+
+# ----------------------------------------------------
+# 5. TABLEAU ARTIFACTS
+# ----------------------------------------------------
+# Ignore generated/temporary Tableau files
+*.twbr
+# Ignore data extracts, which are large and regenerable
+*.tde
+*.hyper
+# Ignore shape files used for custom maps
+shapes/
+# Ignore packaged workbooks, which contain large data extracts
+# *.twbx
+
+# ----------------------------------------------------
+# 6. CODE EDITING / PERSONAL / OTHER
+# ----------------------------------------------------
+# Temporary editor files
 *~
 *#
-*.zip
-__pycache__/
+*.db
 hs_notes/
-.DS_Store
 archive/
-.*.twbr
-data/
-shapes/
