@@ -4,6 +4,7 @@
 # Python Virtual Environment folder
 venv/
 # direnv and pyenv files
+.envrc
 .envrc.local
 .python-version
 # Database login credentials
