@@ -36,7 +36,10 @@ To get all the necessary files, including the analysis notebook and supporting P
 
 Alternatively, you can download the repository as a ZIP file and extract the contents to a local folder.
 
-![Directory Structure](images/directory_structure.png)
+<p align="center">
+  <img src="images/directory_structure.png" alt="Project Directory Structure" width="500"/>
+</p>
+
 
 ---
 
