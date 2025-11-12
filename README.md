@@ -89,7 +89,7 @@ This project uses the `python-dotenv` library to load credentials securely from 
     ```ini
     # .env file (DO NOT COMMIT)
     DB_DIALECT="postgresql+psycopg"
-	DB_PORt="5432"
+	DB_PORT="5432"
 	DB_HOST="localhost"
     DB_NAME="wide_world_importers"
     DB_USER=[your_postgres_user]
